@@ -1,10 +1,10 @@
 {
-  "name": "typescript-lib-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for creating typescript libraries",
+  "name": "md-builder",
+  "version": "0.0.0",
+  "description": "Build markdown strings",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yulric/typescript-lib-boilerplate.git"
+    "url": "https://github.com/yulric/md-builder.git"
   },
   "files": [
     "lib/**/*"
