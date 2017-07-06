@@ -1,6 +1,6 @@
 {
   "name": "md-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build markdown strings",
   "repository": {
     "type": "git",
