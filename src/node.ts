@@ -1,13 +1,4 @@
-/**
- * Testing
- */
 export interface MarkdownNode<T> { 
-    /**
-     * Type of node
-     * 
-     * @type {string}
-     * @memberof MarkdownNode
-     */
     type: string;
     content: T;
     nextNode: null | MarkdownNode<any>;

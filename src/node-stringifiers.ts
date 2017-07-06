@@ -63,7 +63,10 @@ function getTabsForList(listLevel: number) {
 }
 
 function getListStringifier(getListPlaceholder: (contentItem: MarkdownNode<any>, index: number) => string) {
-    return function(node: MarkdownNode<Array<MarkdownNode<any>>>, listLevel: number=0) {
+    return function (
+        node: MarkdownNode<Array<MarkdownNode<any>>>,
+        listLevel: number = 0
+    ) {
         const tabs = getTabsForList(listLevel);
 
         return node.content.map((contentItem, index) => {
