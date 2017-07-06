@@ -15,14 +15,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ts": "tsc",
     "build-ts:watch": "tsc -w",
-    "build-docs": "compodoc -p ./tsconfig.json -s -r 8000",
     "build": "npm run build-ts",
     "prepublish": "npm run build"
   },
   "author": "Yulric Sequeira <yulrics@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@compodoc/compodoc": "1.0.0-beta.9",
     "typescript": "2.3.2"
   }
 }
