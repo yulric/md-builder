@@ -11,11 +11,16 @@
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "keywords": ["markdown", "markdown builder", "md", "md builder"],
+  "keywords": [
+    "markdown",
+    "markdown builder",
+    "md",
+    "md builder"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ts": "tsc",
-    "build-ts:watch": "tsc -w",
+    "build:dev": "tsc -w",
     "build": "npm run build-ts",
     "prepublish": "npm run build"
   },
